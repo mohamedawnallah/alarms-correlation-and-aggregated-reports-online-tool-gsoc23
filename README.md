@@ -15,7 +15,7 @@ To gain a better understanding of the project's business value and context, plea
 ![architecture](./assets/architecture.png)
 
 # How to customize the text inside Alarms Table (Aggregated Alarms Area)
-If you would like to customize the text inside Alarms Table Area for both Alarm Types and Data Sources, you could only change the content of the attributes `title` and `description`. Refer to the alarms metadata inside [AggregatedAlarmsController.vue](./AggregatedAlarmsController.vue). These attributes are loosely coupled from the actual Data transformation code. Be cautious not to alter any key inside the meatadata, as doing so disrupt the code.
+If you would like to customize the text inside Alarms Table Area for both Alarm Types and Data Sources, you could only change the content of the attributes `title` and `description`. Refer to the alarms metadata inside [AggregatedAlarmsController.vue](./controllers/AggregatedAlarmsController.vue). These attributes are loosely coupled from the actual Data transformation code. Be cautious not to alter any key inside the meatadata, as doing so disrupt the code.
 ![alarms-filters-area-ui](./assets/alarms-filters-area-ui.png)
 
 # How to add Internet Alarms Data Source and Integrate with Aggregated Alarms Data Visualizations
